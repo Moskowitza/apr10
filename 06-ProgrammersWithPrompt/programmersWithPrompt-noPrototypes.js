@@ -16,6 +16,7 @@ function Programmer(name, position, age, language) {
 
 // runs inquirer and asks the user a series of questions whose replies are
 // stored within the variable answers inside of the .then statement
+
 inquirer.prompt([
   {
     name: "name",
